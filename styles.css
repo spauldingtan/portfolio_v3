@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(darkgreen.jpg);
+}
+
+.title {
+    position: absolute;
+    right: 20%;
+    top: 55%;
+    color: #CCCCCC;
+    font-family: 'Helvetica Neue', "sans-serif";
+    text-align: right;
+}
+.title > h1 {
+    font-size: 3em;
+}
+.title > p {
+    font-size: 1em;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #666666;
+}

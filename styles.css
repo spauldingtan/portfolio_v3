@@ -3,7 +3,9 @@ body {
     padding: 0;
     background-image: url(darkgreen.jpg);
 }
-
+div {
+    overflow: hidden;
+}
 .title {
     position: absolute;
     right: 20%;
@@ -24,3 +26,49 @@ body {
     right: 0;
     color: #666666;
 }
+.dark-background {
+    background: rgba(0,0,0,.7);
+    margin: auto;
+    height: 800px;
+
+}
+#login {
+    width: 400px;
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #CCCCCC;
+    margin: 100px auto;
+
+}
+#login button {
+    margin-top: 10px;
+    clear: both;
+}
+#login input {
+    display: block;
+    margin-left: 28%;
+}
+#signUp {
+    width: 400px;
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #CCCCCC;
+    margin: 100px auto;
+
+
+}
+#signUp p {
+    text-align: center;
+    margin: 15px;
+    color: #ffffff;
+    font-size: 16px;
+}
+#signUp input {
+    margin-top: 10px;
+}
+#signUp .btn-danger {
+    margin-top: 20px;
+}
+#sign

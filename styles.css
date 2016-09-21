@@ -21,15 +21,15 @@ div {
     font-size: 1em;
 }
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    right: 0;
+    right: 10px;
     color: #666666;
 }
 .dark-background {
     background: rgba(0,0,0,.7);
     margin: auto;
-    height: 800px;
+    height: auto;
 
 }
 #login {
@@ -71,4 +71,62 @@ div {
 #signUp .btn-danger {
     margin-top: 20px;
 }
-#sign
+.aboutContent {
+    text-align: center;
+    color: #CCCCCC;
+}
+.aboutContent p {
+    text-align: left;
+    margin: 10px;
+    font-size: 18px;
+}
+.top {
+    width: 80%;
+    height: 45%;
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+.top p {
+    text-align: center;
+}
+.bottomLeft {
+    width: 50%;
+    height: 40%;
+    box-sizing: border-box;
+    float: left;
+    border-top: 3px solid #444444;
+    border-right: 2px solid #444444;
+    margin-bottom: 200px;
+
+}
+.bottomRight {
+    width: 50%;
+    height: 40%;
+    box-sizing: border-box;
+    float: right;
+    border-top: 3px solid #444444;
+    border-left: 2px solid #444444;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

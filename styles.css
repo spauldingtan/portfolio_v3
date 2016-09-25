@@ -30,7 +30,7 @@ div {
     background: rgba(0,0,0,.7);
     margin: auto;
     height: auto;
-
+    color: #CCCCCC;
 }
 #login {
     width: 400px;
@@ -56,8 +56,6 @@ div {
     text-align: center;
     color: #CCCCCC;
     margin: 100px auto;
-
-
 }
 #signUp p {
     text-align: center;
@@ -94,9 +92,9 @@ div {
     height: 40%;
     box-sizing: border-box;
     float: left;
-    border-top: 3px solid #444444;
+    border-top: 6px solid #444444;
     border-right: 2px solid #444444;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 
 }
 .bottomRight {
@@ -104,10 +102,27 @@ div {
     height: 40%;
     box-sizing: border-box;
     float: right;
-    border-top: 3px solid #444444;
-    border-left: 2px solid #444444;
+    border-top: 6px solid #444444;
+    /*border-left: 2px solid #444444;*/
 }
+#portfolioLeft {
+    width: 40%;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 100px;
+}
+#portfolioRight {
+    width: 40%;
+    box-sizing: border-box;
+    float: right;
+    margin-right: 5%;
+}
+.portfolioPic {
+    width: 100%;
+    box-sizing: border-box;
 
+}
 
 
 
